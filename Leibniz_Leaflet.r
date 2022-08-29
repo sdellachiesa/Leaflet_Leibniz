@@ -9,7 +9,7 @@ df$lat = as.numeric(format(df$lat, digits = 9))
 df$lon = as.numeric(format(df$lon, digits = 9))
 
 # --- Data table to be showed in ui
-df_table<-df[c(2,3,4,5,6)]
+df_table<-df[c(1,2,3,4,5,6)]
 
 
 
